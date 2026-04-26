@@ -1,0 +1,303 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.parent{
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  border: 1px solid white;
+  /* padding: 6px; */
+  background-color: orangered;
+  
+}
+.h1Elements{
+  padding: 10px;
+  padding-left: 40px;
+  
+}
+.divinput input{
+  padding: 10px;
+  width: 280px;
+  border-radius: 10px;
+  border: none;
+  
+
+}
+
+.h2Element{
+  color: white;
+  padding-right: 40px;
+
+}
+.teacher{
+  /* border: 1px solid white; */
+
+  padding-top: 40px;
+  padding-bottom: 70px;
+  background-color: rgb(243, 220, 220);
+  
+}
+.h1Elements2{
+  text-align: center;
+  /* padding-bottom: 16px; */
+  font-weight: bold;
+  font-size:45px;
+}
+.nav a{
+  /* display: block; */
+ color: white;
+ text-decoration: none;
+ padding: 12px;
+ font-size: larger ;
+}
+.nav{
+  display: flex;
+}
+.h4Elemnts{
+  text-align: center;
+  padding-bottom: 16px;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.divinput1 input{
+  padding: 14px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+
+
+}
+.divinput button{
+  padding: 10px;
+  width: 88px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  
+
+  }
+.divinput1 button{
+  padding: 10px;
+  width: 88px;
+  /* background-color: black; */
+  border: none;
+  color: white;
+  border-radius: 12px;
+    background-color: orangered;
+  cursor: pointer;
+
+
+}
+.divinput1{
+  display: flex;
+ justify-content: center;
+ gap: 10px;
+
+}
+.menu-btn{
+  display: none;
+    font-size: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+.parent{
+   display: flex;
+   justify-content: space-between;
+  
+}
+.menu-btn{
+  display: block;
+
+  /* color: white; */
+}
+.h1Elements{
+  padding-left: 7px;
+  font-size:25px;
+  font-weight: bold;
+  font-style: italic;  
+}
+
+
+.h1Elements2{
+  font-size: 30px;
+  
+  
+
+}
+
+.h4Elemnts{
+  font-size: small;
+  
+}
+/* .nav {
+  display: none;
+  flex-direction:column;
+position:absolute;
+top:60px;
+left:0;
+width:100%;
+background:#1e293b;
+padding:20px;
+ }
+.nav.show{
+  display: flex;
+ } */
+ .nav a{
+  display: none;
+ }
+ .nav{
+display:none;
+flex-direction:column;
+position:absolute;
+/* top:60px; */
+/* left:0; */
+/* width:100%; */
+/* background:orangered; */
+/* padding:20px; */
+}
+
+.nav.show{
+display:flex;
+}
+.teacher{
+  width: 100%;
+  height: 200px;
+  
+  
+}
+
+
+.divinput1 button{
+
+  width: 70px;
+  margin-right: 12px;
+
+  border: none;
+  color: white;
+  border-radius: 10px;
+    background-color: orangered;
+  cursor: pointer;
+  padding-top: 8px;
+  height: 40px;
+}
+.divinput1 input{
+  height: 35px;
+  margin-left: 12px;
+}
+
+
+
+
+} 
+
+
+
