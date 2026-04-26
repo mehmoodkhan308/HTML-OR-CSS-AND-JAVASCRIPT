@@ -1,0 +1,78 @@
+.timeContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 15%; */
+    font-size: 20px;
+   
+    
+    
+}
+.buttParent{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bosscontainer{
+    border: 1px solid white;
+    border-radius: 300px;
+    width: 30%;
+    height: 300px;
+    padding-top:20px ;
+    margin: 130px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+   
+}
+.butt1{
+    background-color: green;
+}
+.butt1:hover{
+    background: rgb(197, 238, 197);
+}
+
+.butt2{
+    background-color: red;
+}
+.butt2:hover{
+    background: rgb(236, 131, 131);
+}
+.butt3{
+    background-color: blue;
+}
+.butt3:hover{
+    background: rgb(147, 147, 226);
+}
+button{
+    border: none;
+    padding: 12px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.h1Elements{
+    text-align: center;
+    /* padding-top: 20px; */
+}
+.body{
+    background-color: lightgray;
+}
+
+
+@media (max-width : 425px) {
+     .bosscontainer{
+    border: 1px solid white;
+    border-radius: 300px;
+    width: 80%;
+    height: 300px;
+    padding-top:20px ;
+    margin: 130px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+   
+}
+
+
+
+
+}
