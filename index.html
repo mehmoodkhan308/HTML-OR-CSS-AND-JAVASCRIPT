@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="startQuiz()">
+<body background="./neon-quiz-show-frame-brick-wall_1308-181066.avif" onload="startQuiz()">
     
 
  <div class="quizcontainer">
@@ -17,17 +17,25 @@
     <div class="body">
         <h1 id="questionElement" class="heading1"></h1>
         <ul id="optionElement">
-            <!-- <li>option1</li>
+             <!-- <li>option1</li>
             <li> option2</li>
-            <li> option3</li>
-            <li> option4</li> -->
+            <li> option3</li> -->
         </ul>
-    </div>
+     </div>
     <div class="footer">
-        <h3>1/10</h3>
-        <button onclick="nextans()">Next</button>
+        <h3 id="quizprogress">1/10</h3>
+        <button  disabled id="nextquestion" onclick="nextanswer()">Next</button>
     </div>
- </div>
+ </div> 
+
+
+ <div  class="reportCard">
+        <h1 class="h1Elemen">Report Card</h1>
+            <p class="para">Total Question: 10</p>
+            <p  class="para" id="correctPara" >Correct answer:100</p>
+            <p  class="para" id="wrong" ></p>
+            <p  class="para" id="grade" >Grade: 100</p>
+ </div> 
 
 
 

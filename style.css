@@ -6,13 +6,20 @@
  .quizcontainer .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: brown;
+ 
+      
+  
     
 
 }
+
+
+
 .heading1{
     color:chocolate ;
+    
 }
 p{
 font-size: medium;
@@ -23,6 +30,7 @@ font-size: medium;
     border: 1px solid black;
     margin: 50px auto;
     padding: 16px;
+     
 }
 .body ul li{
    border: 1px solid black;
@@ -56,4 +64,28 @@ font-size: 20px;
     font-size: 15px;
     cursor: pointer ;
 
+}
+.reportCard{
+    display: none;
+    border: 1px solid black;
+    width: 35%;
+    background-color: brown;
+    color: white;
+    margin: 100px auto;
+    border-radius: 10px;
+    
+    
+}
+
+.h1Elemen{
+    text-align: center;
+    color: brown;
+   
+
+}
+.para{
+    text-align: center;
+    font-size: xx-large;
+    border: 1px solid black;
+    color: aquamarine;
 }
